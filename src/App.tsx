@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import _modes from './modes.json'
 
 // type Equal<T, U> = (<G>() => G extends T ? 1: 2) extends (<G>() => G extends U ? 1: 2) ? true: false
