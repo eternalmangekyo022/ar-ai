@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	.center {
+		@apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+	}
+
+	.flexer {
+		@apply flex justify-center items-center
+	}
+
+	h1 {
+		font-size: 2rem;
+		font-weight: 600;
+		@apply text-gray-400 tracking-wider shadow-black shadow-md p-4
+	}
+}
