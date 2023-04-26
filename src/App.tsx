@@ -9,8 +9,8 @@ export default function App() {
   const [mode, setMode] = useState<Mode>(modes[1]);
 
   return <>
-    <div className='w-screen h-screen relative overflow-x-hidden overflow-y-visible'>
-      <div className='center w-5/6 min-h-full h-fit bg-sky-950 flex flex-col items-center'>
+    <div className='w-screen h-screen relative overflow-x-hidden overflow-y-visible bg-slate-500 flex justify-center'>
+      <div className='w-5/6 min-h-full h-fit bg-sky-950 flex flex-col items-center'>
         <header className='w-5/6 h-32 border-b-black border-b-2 flexer text-3xl text-sky-400'>
           <h1 className='tracking-wider'>AR : Valóság++</h1>
         </header>
@@ -26,6 +26,7 @@ export default function App() {
           <article className='w-5/6 h-fit text-sky-400 text-center mt-16 tracking-widest'>
             {mode.description}
           </article>
+          <iframe className='my-20' width="50%" height="300" src="https://www.youtube.com/embed/s0DhUOQCchw" title="Chainsaw Man OP - KICK BACK - Fingerstyle Guitar Cover" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </main>
       </div>
     </div>
