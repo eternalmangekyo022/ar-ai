@@ -26,7 +26,7 @@ export default function App() {
           <article className='w-5/6 h-fit text-sky-400 text-center mt-16 tracking-widest'>
             {mode.description}
           </article>
-          <iframe className='my-20' width="50%" height="300" src="https://www.youtube.com/embed/s0DhUOQCchw" title="Chainsaw Man OP - KICK BACK - Fingerstyle Guitar Cover" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe className='my-20' width="50%" height="300" src="https://www.youtube.com/embed/PyrQAd54b1k" title="Chainsaw Man OP - KICK BACK - Fingerstyle Guitar Cover" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </main>
       </div>
     </div>
